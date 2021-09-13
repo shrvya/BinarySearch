@@ -63,7 +63,7 @@ public class MyBinaryTree<K extends Comparable<K>> {
 	}
 
 	/**
-	 * method to search for a key key element to be searched
+	 * method to search for a key element to be searched
 	 */
 	public void search(K key) {
 		this.searchNodes(key, root);
